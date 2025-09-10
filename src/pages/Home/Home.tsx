@@ -17,7 +17,7 @@ export function Home() {
         </div>
 
         <Link to={"/quiz/1"}>
-          <button className="px-10 py-3 bg-[#C3EDFF] text-[#1C2635] text-xl rounded-xl font-medium">
+          <button className="px-10 py-3 bg-[#C3EDFF] text-[#1C2635] text-xl rounded-xl font-medium cursor-pointer">
             Start the quiz
           </button>
         </Link>
