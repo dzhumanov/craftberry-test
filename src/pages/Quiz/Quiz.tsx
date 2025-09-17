@@ -56,13 +56,13 @@ export function Quiz() {
           </div>
           <div className="flex gap-5">
             <button
-              className="text[#677487] text-xl underline cursor-pointer"
+              className="text[#677487] text-xl underline rounded-lg px-5 cursor-pointer hover:bg-[#C3EDFF] transition-all duration-300"
               onClick={backHandler}
             >
               Back
             </button>
             <button
-              className="bg-[#C3EDFF] px-7 py-4 rounded-lg cursor-pointer"
+              className="bg-[#C3EDFF] px-7 py-4 rounded-lg cursor-pointer hover:bg-[#7DD3FC] transition-all duration-300"
               onClick={nextHandler}
             >
               Next question →

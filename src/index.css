@@ -24,3 +24,9 @@
 :root {
   font-family: "Fahkwang", sans-serif;
 }
+
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 20px;
+  text-align: center;
+}
